@@ -9,12 +9,14 @@ h1
     margin-top: 20px;
     font-size: 50px;
     letter-spacing: 1px;
+    text-align: left !important;
 }
 
 header h3
 {
     font-weight: bolder;
     color: #8E8E93;
+    text-align: left !important;
 }
 
 p
@@ -36,8 +38,8 @@ p
 
 .welcome img
 {
-    width: 300px;
-    height: 300px;
+    width: 280px;
+    height: 280px;
     object-fit: fill;
     border-radius: 50%;
 }
