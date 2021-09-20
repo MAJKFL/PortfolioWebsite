@@ -1,0 +1,76 @@
+body
+{
+    text-align: center;
+}
+
+h1
+{
+    font-weight: bold;
+    margin-top: 20px;
+    font-size: 50px;
+    letter-spacing: 1px;
+}
+
+header h3
+{
+    font-weight: bolder;
+    color: #8E8E93;
+}
+
+p
+{
+    text-align: justify;
+}
+
+.screenshot img
+{
+    height: 400px;
+    width: auto;
+}
+
+.welcome
+{
+    vertical-align: center;
+    horiz-align: right;
+}
+
+.welcome img
+{
+    width: 300px;
+    height: 300px;
+    object-fit: fill;
+    border-radius: 50%;
+}
+
+.socialIcon
+{
+    font-size: 30px;
+}
+
+@media (prefers-color-scheme: dark)
+{
+    body
+    {
+        background-color: #1C1C1E;
+        color: white;
+    }
+
+    a
+    {
+        color: #1584FB;
+    }
+}
+
+@media (prefers-color-scheme: light)
+{
+    body
+    {
+        background-color: #ffffff;
+        color: black;
+    }
+
+    a
+    {
+        color: #057AFB;
+    }
+}
