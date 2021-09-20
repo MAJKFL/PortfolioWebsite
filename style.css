@@ -82,7 +82,10 @@ p
         font-weight: bold;
     }
 
-    .navbar a:hover {
+    .navbar a:hover,
+    .navbar a:active,
+    .navbar a:focus
+    {
         color: black;
     }
 
@@ -125,7 +128,10 @@ p
         font-weight: bold;
     }
 
-    .navbar a:hover {
+    .navbar a:hover,
+    .navbar a:active,
+    .navbar a:focus
+    {
         color: white;
     }
 
