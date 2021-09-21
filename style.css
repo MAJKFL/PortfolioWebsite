@@ -56,6 +56,25 @@ p
     box-shadow: none;
 }
 
+a
+{
+    text-decoration: none !important;
+}
+
+.wwdcProjectCover img
+{
+    height: 260px;
+    width: auto;
+    border-radius: 30px;
+}
+
+.badge img
+{
+    height: 50px;
+    width: auto;
+    margin-top: -10px;
+}
+
 @media (prefers-color-scheme: light)
 {
     body
@@ -151,9 +170,4 @@ p
     .carousel-control-prev {
         filter: invert(100%);
     }
-}
-
-a
-{
-    text-decoration: none !important;
 }
