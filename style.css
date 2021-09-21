@@ -63,8 +63,6 @@ a
 
 .wwdcProjectCover img
 {
-    height: 260px;
-    width: auto;
     border-radius: 30px;
 }
 
@@ -169,5 +167,12 @@ a
     .carousel-control-next,
     .carousel-control-prev {
         filter: invert(100%);
+    }
+}
+
+@media (max-width: 768px) {
+    .badge img
+    {
+        margin-left: -10px;
     }
 }
