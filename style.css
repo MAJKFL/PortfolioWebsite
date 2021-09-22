@@ -80,11 +80,6 @@ a
     color: #8E8E93;
 }
 
-#secondExperienceList
-{
-    margin-top: -17px;
-}
-
 @media (prefers-color-scheme: light)
 {
     body
@@ -189,5 +184,13 @@ a
     .experienceList b
     {
         color: white;
+    }
+}
+
+@media(max-width: 768px)
+{
+    #secondExperienceList
+    {
+        margin-top: -17px;
     }
 }
