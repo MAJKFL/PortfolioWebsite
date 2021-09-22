@@ -194,3 +194,11 @@ a
         margin-top: -17px;
     }
 }
+
+@media(min-width: 769px)
+{
+    #downloadMyCV
+    {
+        margin-top: -15px;
+    }
+}
