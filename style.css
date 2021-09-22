@@ -72,6 +72,7 @@ a
     height: 50px;
     width: auto;
     margin-top: -10px;
+    margin-left: -10px;
 }
 
 @media (prefers-color-scheme: light)
@@ -168,12 +169,5 @@ a
     .carousel-control-next,
     .carousel-control-prev {
         filter: invert(100%);
-    }
-}
-
-@media (max-width: 768px) {
-    .badge img
-    {
-        margin-left: -10px;
     }
 }
