@@ -80,6 +80,17 @@ a
     color: #8E8E93;
 }
 
+.company img
+{
+    height: 100px;
+    width: auto;
+}
+
+.company h5
+{
+    color: #8E8E93;
+}
+
 @media (prefers-color-scheme: light)
 {
     body
