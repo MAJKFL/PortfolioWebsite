@@ -91,6 +91,12 @@ a
     color: #8E8E93;
 }
 
+#schoolPurposeLabel
+{
+    text-decoration: underline;
+    font-weight: bold;
+}
+
 @media (prefers-color-scheme: light)
 {
     body
