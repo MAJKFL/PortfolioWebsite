@@ -10,7 +10,6 @@ h1
     font-size: 45px;
     letter-spacing: 1px;
     line-height: 50px;
-    text-align: left !important;
 }
 
 header h3
@@ -34,6 +33,17 @@ a
 {
     height: 400px;
     width: auto;
+}
+
+.bigScreenshot img
+{
+    height: 500px;
+    width: auto;
+}
+
+.bigHeader h1
+{
+    font-size: 90px;
 }
 
 .welcome
@@ -206,9 +216,14 @@ h5
 
 @media(max-width: 768px)
 {
-    #secondExperienceList
+    .secondExperienceList
     {
         margin-top: -17px;
+    }
+
+    h1
+    {
+        text-align: left !important;
     }
 }
 
