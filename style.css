@@ -10,6 +10,7 @@ h1
     font-size: 45px;
     letter-spacing: 1px;
     line-height: 50px;
+    text-align: left !important;
 }
 
 header h3
@@ -27,6 +28,7 @@ p
 a
 {
     text-decoration: none !important;
+    transition: 0.2s;
 }
 
 .screenshot img
@@ -44,6 +46,7 @@ a
 .bigHeader h1
 {
     font-size: 90px;
+    text-align: center !important;
 }
 
 .welcome
@@ -219,11 +222,6 @@ h5
     .secondExperienceList
     {
         margin-top: -17px;
-    }
-
-    h1
-    {
-        text-align: left !important;
     }
 }
 
