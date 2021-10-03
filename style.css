@@ -43,6 +43,12 @@ a
     width: auto;
 }
 
+.ipadScreenshot img
+{
+    height: auto;
+    width: 70vw;
+}
+
 .bigHeader h1
 {
     font-size: 60px;
