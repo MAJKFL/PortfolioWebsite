@@ -5,7 +5,7 @@ let subtitle = ""
 let lastScreenSize = $(window).width();
 
 switch (appName) {
-    case `tarbus`: screenshots = [`iPhone.png`, `iPhone.png`, `iPhone.png`]; subtitle = "Your pocket bus timetable"; break;
+    case `tarbus`: screenshots = [`iPhone.png`, `iPhone.png`, `iPhone.png`]; subtitle = "Your pocket timetable"; break;
     case `What A Brick`: screenshots = [`iPhone.png`, `iPhone.png`, `iPhone.png`]; subtitle = "Identify your brick with AI!"; break;
     case `foodtracker`: screenshots = [`iPhone.png`, `iPhone.png`, `iPhone.png`]; subtitle = "Everything about foodtrucks!"; break;
     default: screenshots = []; break;
@@ -24,8 +24,8 @@ function setScreenshots() {
     let win = $(this);
     if (win.width() < 768) {
         $(`#screenshots`).html(`<div class="row"><div class="col-sm-12 col-md-6 align-content-center bigScreenshot bigHeader pt-3 pt-md-0">\n` +
-            `                    <h1 class="elementToFadeAndSlideIn1">Wonderful icons</h1>`+
-            `                    <h5 class="elementToFadeAndSlideIn2">WWDC21 entry</h5>`+
+            `                    <h1 class="elementToFadeAndSlideIn1">${appName}</h1>`+
+            `                    <h5 class="elementToFadeAndSlideIn2">${subtitle}</h5>`+
             `                    <div id="carouselControls" class="carousel carousel-dark slide elementToFadeAndSlideIn3" data-bs-ride="carousel">\n` +
             `                        <div class="carousel-inner">\n` +
             `                            <div class="carousel-item active">\n` +
