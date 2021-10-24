@@ -43,7 +43,7 @@ a
     width: auto;
 }
 
-@media(max-width: 960px) {
+@media(max-width: 1050px) {
     .ipadScreenshot img
     {
         height: auto;
@@ -51,7 +51,7 @@ a
     }
 }
 
-@media(min-width: 960px) {
+@media(min-width: 1050px) {
     .ipadScreenshot img
     {
         height: 70vh;
