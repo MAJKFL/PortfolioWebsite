@@ -43,10 +43,25 @@ a
     width: auto;
 }
 
-.ipadScreenshot img
-{
-    height: auto;
-    width: 70vw;
+@media(max-width: 960px) {
+    .ipadScreenshot img
+    {
+        height: auto;
+        width: 70vw;
+    }
+}
+
+@media(min-width: 960px) {
+    .ipadScreenshot img
+    {
+        height: 70vh;
+        width: auto;
+    }
+
+    .bigHeader
+    {
+        height: 90vh;
+    }
 }
 
 .bigHeader h1
