@@ -2,6 +2,7 @@ let appName = document.getElementById("carouselSwitching").getAttribute("data-ap
 
 let screenshots = [``];
 let subtitle = ""
+let lastScreenSize = $(window).width();
 
 switch (appName) {
     case `tarbus`: screenshots = [`iPhone.png`, `iPhone.png`, `iPhone.png`]; subtitle = "Your pocket bus timetable"; break;
@@ -13,7 +14,10 @@ switch (appName) {
 setScreenshots()
 
 $(window).on(`resize`, function() {
-    setScreenshots()
+    if (lastScreenSize < 768 && $(window).width() > 768 || lastScreenSize > 768 && $(window).width() < 768) {
+        setScreenshots()
+        lastScreenSize = $(window).width();
+    }
 });
 
 function setScreenshots() {
