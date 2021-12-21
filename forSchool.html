@@ -15,6 +15,20 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="fontello/css/fontello.css">
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="jquery.scrollTo.min.js"></script>
+
+    <script>
+        jQuery(
+            function ($)
+            {
+                $.scrollTo(0);
+
+                $('#scrollDownButton').click(function() { $.scrollTo($('.firstItem'), 500); });
+            }
+        );
+    </script>
+
     <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
     <![endif]-->
@@ -89,10 +103,10 @@
                         <p>I’m a high school student from Tarnów currently working on bus timetable app tarbus. I love developing great, modern, inclusive and intuitive ideas. I was always into Apple ecosystem and possibilities those platforms give to users and (especially) developers😀. My favourite language is Swift I like it’s modern syntax, intuitiveness, speed and community around it. I love developing apps with SwiftUI because it’s modern, easy and funny to use. I like to listen to great music, shoot photos. I like to play the guitar in my spare time.</p>
                     </article>
 
-                    <img src="img/dragDown.gif" alt="dragDownIcon" height="100">
+                    <a id="scrollDownButton" href="#"><img src="img/dragDown.gif" alt="dragDownIcon" height="100"></a>
                 </div>
 
-                <div class="col-sm-12 text-sm-start text-center">
+                <div class="col-sm-12 text-sm-start text-center firstItem">
                     <header>
                         <h1>Projects</h1>
                     </header>
