@@ -24,7 +24,10 @@
             {
                 $.scrollTo(0);
 
-                $('#scrollDownButton').click(function() { $.scrollTo($('.firstItem'), 500); });
+                $('#scrollDownButton').click(function() { $.scrollTo($('.firstItem'), {
+                    offset: -30,
+                    duration: 600
+                }); });
             }
         );
     </script>
