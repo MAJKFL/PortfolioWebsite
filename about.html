@@ -17,8 +17,13 @@
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 	<script src="jquery.scrollTo.min.js"></script>
+	<script src="/disableScroll.js"></script>
 
 	<script>
+		disableScroll();
+
+		setTimeout(enableScroll, 3000);
+
 		jQuery(
 				function ($)
 				{
