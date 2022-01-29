@@ -1,8 +1,12 @@
 ### PROTECT FILES ###
 <FilesMatch "\.(htaccess|htpasswd|ini|fla|psd|log|sh)$">
-Order Allow,Deny
-Deny from all
+    Order Allow,Deny
+    Deny from all
 </FilesMatch>
+
+<IfModule mod_mime.c>
+  AddType application/wasm .wasm
+</IfModule>
 
 RewriteEngine on
 RewriteRule home index.html
