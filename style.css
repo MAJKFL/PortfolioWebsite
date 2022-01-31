@@ -347,6 +347,12 @@ h5
         width: 30vw;
         height: auto;
     }
+
+    .macCarousel
+    {
+        margin-top: -70px;
+        height: 410px;
+    }
 }
 
 .elementToFadeAndSlideIn1 {
