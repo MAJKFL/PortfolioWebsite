@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Jakub Florek</title>
+    <meta name="description" content="Hi, I'm an Junior iOS developer">
+    <meta name="keywords" content="iOS developer, iOS development, junior, apple, app store, it, programmer">
+    <meta name="author" content="Jakub Florek">
+    <meta http-equiv="X-Ua-Compatible" content="IE=edge">
+
+    <link rel="shortcut icon" href="../img/shortcutIcon.png"/>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../fontello/css/fontello.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="/jquery.scrollTo.min.js"></script>
+    <script src="/disableScroll.js"></script>
+
+    <script>
+        disableScroll();
+
+        setTimeout(enableScroll, 2000);
+
+        jQuery(
+            function ($)
+            {
+                $.scrollTo(0);
+
+                $('#scrollDownButton').click(function() { $.scrollTo($('.firstItem'), {
+                    offset: -30,
+                    duration: 600
+                }); });
+            }
+        );
+    </script>
+
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <nav class="navbar sticky-top navbar-expand-lg navbar-custom">
+        <a class="navbar-brand disabled ms-2 ms-md-3" href="/home">Jakub Florek</a>
+
+        <button class="navbar-toggler collapsed d-flex d-lg-none flex-column justify-content-around me-4" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="toggler-icon top-bar"></span>
+            <span class="toggler-icon middle-bar"></span>
+            <span class="toggler-icon bottom-bar"></span>
+        </button>
+
+        <div class="collapse navbar-collapse me-auto text-start ms-4 ms-md-5" id="menu">
+            <ul class="navbar-nav ms-auto me-3">
+                <li class="nav-item active">
+                    <a class="nav-link" href="/home"> Projects </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="/about"> About </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="/school"> For school </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="/JakubFlorek_CV_EN.pdf" download="JakubFlorek_CV_EN"> CV </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="mailto:contact@jakubflorek.com"> Email </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <div class="container-sm">
+            <div class="row">
+                <div class="col-sm-12 align-content-center ipadScreenshot bigHeader pt-3 pt-md-0">
+                    <h1 class="elementToFadeAndSlideIn1">Audioqe</h1>
+
+                    <h5 class="elementToFadeAndSlideIn2">WWDC22 entry</h5>
+
+                    <div id="carouselControls" class="carousel carousel-dark slide elementToFadeAndSlideIn3" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="../img/Audioqe1.png" alt="WonderfulIcons">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../img/Audioqe2.png" alt="WonderfulIcons">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../img/Audioqe3.png" alt="WonderfulIcons">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselControls" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselControls" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+
+                    <a id="scrollDownButton" href="#" class="elementToFadeAndSlideIn3"><img src="/img/dragDown.gif" alt="dragDownIcon" style="height: 100px; width: auto"></a>
+                </div>
+
+                <div class="col-sm-12 text-start text-center elementToFadeAndSlideIn4 firstItem">
+                    <header>
+                        <h1>About the app</h1>
+                    </header>
+
+                    <article>
+                        <p>Audioqe is a simple audio processing app which allows users to create “queues” of audio effects. Its main purpose is to show the impact of effects in different combinations on a sound. It also gives users the way to quickly and effortlessly apply their favourite combinations to their recordings. Users can choose from reverbs, distortions, delays and equalisers. Each one can be dragged freely to change the order of applied effects. Each effect has a bunch of settings making it easy to personalize it. Users can import their own audio files for processing or use a built in recorder. Each queue is automatically saved and can be later reused with different audio files.</p>
+                    </article>
+
+                    <div class="d-flex">
+                        <a class="badge" target="_blank" href="https://github.com/MAJKFL/Audioqe-WWDC22"><img src="../img/getItOnGithubBadge.png" alt="githubBadge"></a>
+
+                        <div class="m-auto"></div>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 text-sm-start text-center">
+                    <header>
+                        <h1>Technology used</h1>
+                    </header>
+                </div>
+
+                <div class="col-md-6 text-start experienceList">
+                    <ul>
+                        <li><b>SwiftUI</b> - Entire interface.</li>
+                        <li><b>AVFoundation</b> - Realtime audio processing.</li>
+                        <li><b>UIKit</b> - Share sheet.</li>
+                    </ul>
+                </div>
+
+                <div class="col-md-6 text-start experienceList secondExperienceList">
+                    <ul>
+                        <li><b>AVKit</b> - Audio recording.</li>
+                    </ul>
+                </div>
+
+                <footer class="col-sm-12 my-2">
+                    &#169 2022 Jakub Florek - All rights reserved.
+                </footer>
+            </div>
+        </div>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

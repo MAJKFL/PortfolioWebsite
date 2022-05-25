@@ -10,6 +10,7 @@
 
 RewriteEngine on
 RewriteRule home index.html
+RewriteRule WWDC22 WWDC/WWDC22.html
 RewriteRule school forSchool.html
 RewriteRule about about.html
 RewriteRule Star-Buffs /games/StarBuffs/StarBuffs.html
