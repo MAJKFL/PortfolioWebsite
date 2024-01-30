@@ -43,6 +43,13 @@ a
     width: auto;
 }
 
+.icon {
+    height: 70px;
+    width: auto;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
 @media(max-width: 1050px) {
     .ipadScreenshot img
     {
@@ -350,7 +357,6 @@ h5
 
     .macCarousel
     {
-        margin-top: -70px;
         height: 410px;
     }
 }
