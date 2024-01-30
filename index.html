@@ -17,13 +17,8 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="/jquery.scrollTo.min.js"></script>
-    <script src="/disableScroll.js"></script>
 
     <script>
-        disableScroll();
-
-        setTimeout(enableScroll, 2000);
-
         jQuery(
             function ($)
             {
@@ -58,20 +53,12 @@
                     <a class="nav-link disabled" href="/home"> Projects </a>
                 </li>
 
-<!--                <li class="nav-item">-->
-<!--                    <a class="nav-link" href="/about"> About </a>-->
-<!--                </li>-->
-
-                <li class="nav-item">
-                    <a class="nav-link" href="/school"> For school </a>
-                </li>
-
                 <li class="nav-item">
                     <a class="nav-link" href="/JakubFlorek_CV_EN.pdf" download="JakubFlorek_CV_EN"> CV </a>
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link" href="mailto:contact@jakubflorek.com"> Email </a>
+                    <a class="nav-link" href="mailto:kubaflor23@gmail.com"> Email </a>
                 </li>
             </ul>
         </div>
@@ -89,7 +76,7 @@
 
                             <div class="socialIcon elementToFadeAndSlideIn3">
                                 <a href="https://apps.apple.com/pl/developer/miroslaw-florek/id1554556130" target="_blank"><i class="icon-apple"></i></a>
-                                <a href="mailto:contact@jakubflorek.com"><i class="icon-mail-squared"></i></a>
+                                <a href="mailto:kubaflor23@gmail.com"><i class="icon-mail-squared"></i></a>
                                 <a href="https://github.com/MAJKFL" target="_blank"><i class="icon-github-circled"></i></a>
                                 <a href="https://www.linkedin.com/in/jakub-florek-ba9378207/" target="_blank"><i class="icon-linkedin"></i></a>
                                 <a href="https://twitter.com/MAJKFL" target="_blank"><i class="icon-twitter"></i></a>
@@ -121,9 +108,7 @@
                 </div>
 
                 <div class="col-sm-12 col-md-6 align-content-center">
-                    <div class="text-end"><img style="height: 70px; width: auto;" src="/img/TarbusIcon.png" alt="tarbusIcon"></div>
-
-                    <div style="margin-top: -70px; height: 410px;" id="carouselTarbusControls" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                    <div style="height: 410px;" id="carouselTarbusControls" class="carousel carousel-dark slide" data-bs-ride="carousel">
                         <div class="carousel-inner">
                             <div class="carousel-item active">
                                 <img class="iPhoneScreenshot" src="/img/Tarbus1.png" alt="tarBUS">
@@ -148,20 +133,14 @@
                         </button>
                     </div>
 
+                    <img class="icon" src="/img/TarbusIcon.png" alt="tarbusIcon">
                     <a href="https://tarbus.pl" target="_blank"><h2>tarBUS</h2></a>
+
                     <p>A local bus timetable app and my first app in the App Store. The result of cooperation with the Michalus transport company, the schedule of which is available in the app. Project's background lays in the turbulent recent history of public transport in suburban areas in my town. On Android and iOS combined it accounted for over 5000 downloads. It's a very important project for me. I learned a lot about mobile development, teamwork, creating app from scratch, shipping it while maintaining in close contact with client and using App Store Connect. Personally my favourite feature are customizable widgets displaying next departures from selected bus stop.</p>
-
-                    <div class="d-flex">
-                        <a class="badge" href="https://apps.apple.com/pl/app/tarbus/id1554556128"><img src="/img/downloadOnTheAppStoreBadge.png" alt="githubBadge"></a>
-
-                        <div class="m-auto"></div>
-                    </div>
                 </div>
 
                 <div class="col-sm-12 col-md-6 align-content-center">
-                    <div class="text-end"><img style="height: 70px; width: auto;" src="/img/JPKIcon.png" alt="JPKIcon"></div>
-
-                    <div style="margin-top: -70px; height: 410px;" id="carouselJPKControls" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                    <div style="height: 410px;" id="carouselJPKControls" class="carousel carousel-dark slide" data-bs-ride="carousel">
                         <div class="carousel-inner">
                             <div class="carousel-item active">
                                 <img class="iPhoneScreenshot" src="/img/JPK1.png" alt="JPK">
@@ -183,14 +162,13 @@
                         </button>
                     </div>
 
+                    <img class="icon" src="/img/JPKIcon.png" alt="JPKIcon">
                     <h2>Kitchen test ride layout editor</h2>
                     <p>This is an enterprise app used for creating kitchen layouts. It’s based around standardized Blum „kitchen test ride” programme. After a meeting with clients, an employee may create a blueprint using the app according to the physical model made during the meeting. The project then can be exported to PDF and sent with annotations to the client and the carpenter. It’s still in development scheduled to end in the first half of 2023.</p>
                 </div>
 
                 <div class="col-sm-12 col-md-6 align-content-center pt-3 pt-md-0">
-                    <div class="text-end"><img style="height: 70px; width: auto;" src="/img/WelcomeSheetIcon.png" alt="welcomeSheetIcon"></div>
-
-                    <div style="margin-top: -70px; height: 410px;" id="carouselWelcomeSheetControls" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                    <div style="height: 410px;" id="carouselWelcomeSheetControls" class="carousel carousel-dark slide" data-bs-ride="carousel">
                         <div class="carousel-inner">
                             <div class="carousel-item active">
                                 <img class="iPhoneScreenshot" src="/img/WelcomeSheet1.png" alt="WelcomeSheet">
@@ -212,14 +190,9 @@
                         </button>
                     </div>
 
+                    <img class="icon" src="/img/WelcomeSheetIcon.png" alt="welcomeSheetIcon">
                     <a href="https://github.com/MAJKFL/Welcome-Sheet" target="_blank"><h2>Welcome Sheet</h2></a>
                     <p>An open source Swift Package. Welcome sheet for swiftUI enables incredibly easy way for creating onboarding screens, patch notes, or whatever developer imagines! The main idea standing behind this project was to follow the design of Apple’s native introductory screens as much as possible. So far the project accounted for over 70 stars on GitHub and 3 contributors.</p>
-
-                    <div class="d-flex">
-                        <a class="badge" href="https://github.com/MAJKFL/Welcome-Sheet" target="_blank"><img src="/img/getItOnGithubBadge.png" alt="githubBadge"></a>
-
-                        <div class="m-auto"></div>
-                    </div>
                 </div>
 
                 <div class="col-sm-12 text-sm-start text-center">
@@ -238,8 +211,6 @@
                     <p>
                         Quick and simple guide to designing nice app icons. It's hard to create something unique, meaningful, universal and beautiful at the same time. That’s why I made the playground—to help people understand how to design icons with less effort and more fun! Accepted by Apple in 2021.
                     </p>
-
-                    <a class="badge" href="https://github.com/MAJKFL/Wonderful_Icons-WWDC21" target="_blank"><img src="/img/getItOnGithubBadge.png" alt="githubBadge"></a>
                 </div>
 
                 <div class="col-sm-12 col-md-6 align-content-center mt-3 bigImage">
@@ -252,8 +223,6 @@
                     <p>
                         Audioqe is a simple audio processing app which allows users to create “queues” of audio effects. Its main purpose is to show the impact of effects in different combinations on a sound. It also gives users a way to quickly and effortlessly apply their favourite combinations to their recordings. Users can choose from reverbs, distortions, delays and equalisers. Each one can be dragged freely to change the order of applied effects. Each effect has a bunch of settings making it easy to personalize it. Users can import their own audio files for processing or use a built in recorder. Each queue is automatically saved and can be later reused with different audio files. Created entirely in SwiftUI with audio processing done with AVFoundation. Selected by Apple in 2022.
                     </p>
-
-                    <a class="badge" href="https://github.com/MAJKFL/Wonderful_Icons-WWDC21" target="_blank"><img src="/img/getItOnGithubBadge.png" alt="githubBadge"></a>
                 </div>
 
                 <div class="col-sm-12 text-sm-start text-center">
@@ -263,8 +232,6 @@
                 </div>
 
                 <div class="col-sm-12 col-md-6 align-content-center pt-3 pt-md-0">
-                    <div class="text-end"><img style="height: 70px; width: auto;" src="/img/StarbuffsIcon.png" alt="starbuffsIcon"></div>
-
                     <div id="carouselStarbuffsControls" class="carousel carousel-dark slide macCarousel" data-bs-ride="carousel">
                         <div class="carousel-inner">
                             <div class="carousel-item active">
@@ -290,20 +257,13 @@
                         </button>
                     </div>
 
+                    <img class="icon" style="box-shadow: none !important;" src="/img/StarbuffsIcon.png" alt="starbuffsIcon">
                     <a href="/games/StarBuffs/StarBuffs.html" target="_blank"><h2>Star Buffs</h2></a>
                     <p>A simple rouge-like, top-down shooter. Created in Unity for Ludum Dare 46 game jam under 48 hours. Player shoots down hostile ships and collects points. He uses "buffs" filling up his health bar, but also improving enemies' statistics. After collecting certain amount of points he is ready to take over an enemy and maintain its configuration. During contest the game was praised especially for its graphic design. It used, by the time still in beta, Unity new rendering pipline—URP.</p>
-
-                    <div class="d-flex">
-                        <a class="badge" href="https://github.com/MAJKFL/Starbuffs" target="_blank"><img src="/img/getItOnGithubBadge.png" alt="githubBadge"></a>
-
-                        <div class="m-auto"></div>
-                    </div>
                 </div>
 
                 <div class="col-sm-12 col-md-6 align-content-center pt-3 pt-md-0">
-                    <div class="text-end"><img style="height: 70px; width: auto;" src="/img/WhatABrickIcon.png" alt="whatABrickIcon"></div>
-
-                    <div style="margin-top: -70px; height: 410px;" id="carouselWhatABrickControls" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                    <div style="height: 410px;" id="carouselWhatABrickControls" class="carousel carousel-dark slide" data-bs-ride="carousel">
                         <div class="carousel-inner">
                             <div class="carousel-item active">
                                 <img class="iPhoneScreenshot" src="/img/WhatABrick1.png" alt="WhatABrick">
@@ -328,18 +288,13 @@
                         </button>
                     </div>
 
+                    <img class="icon" src="/img/WhatABrickIcon.png" alt="whatABrickIcon">
                     <a href="https://github.com/MAJKFL/What-a-Brick" target="_blank"><h2>What A Brick</h2></a>
                     <p>Fun app for recognizing and keeping in collection LEGO bricks built using CoreML. User can look up brick's details as well as display in AR thanks to ARKit preview. Collection is displayed in a nice list with gorgeous spinning 3D previews. I created it to play around with ML.</p>
-
-                    <div class="d-flex">
-                        <a class="badge" href="https://github.com/MAJKFL/What-a-Brick" target="_blank"><img src="/img/getItOnGithubBadge.png" alt="githubBadge"></a>
-
-                        <div class="m-auto"></div>
-                    </div>
                 </div>
 
                 <footer class="col-sm-12 my-2">
-                    &#169 2023 Jakub Florek - All rights reserved.
+                    &#169 2024 Jakub Florek - All rights reserved.
                 </footer>
             </div>
         </div>
